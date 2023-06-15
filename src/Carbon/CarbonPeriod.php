@@ -43,6 +43,8 @@ use RuntimeException;
 /**
  * Substitution of DatePeriod with some modifications and many more features.
  *
+ * @implements \Iterator<int, \Carbon\Carbon>
+ *
  * @property-read int|float $recurrences number of recurrences (if end not set).
  * @property-read bool $include_start_date rather the start date is included in the iteration.
  * @property-read bool $include_end_date rather the end date is included in the iteration (if recurrences not set).
